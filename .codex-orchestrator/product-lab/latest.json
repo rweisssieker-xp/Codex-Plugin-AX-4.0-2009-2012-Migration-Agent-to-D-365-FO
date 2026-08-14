@@ -1,0 +1,60 @@
+{
+  "adjustment": {
+    "blockers": [
+      "security evidence is missing",
+      "candidate does not materially replace the status quo"
+    ],
+    "scoreDelta": -6,
+    "state": "validate"
+  },
+  "artifactPath": ".codex-orchestrator/product-lab/latest.json",
+  "candidateId": "radical-self-deleting-interface",
+  "claimBoundary": "Lab perspectives are structured counterarguments, not real user research or independent security approval.",
+  "errors": [],
+  "perspectives": [
+    {
+      "claim": "builder evaluation for Self-Deleting Interface",
+      "evidenceRequired": "testable acceptance evidence",
+      "primaryRisk": "builder evidence is missing",
+      "recommendation": "investigate",
+      "role": "builder"
+    },
+    {
+      "claim": "target-user evaluation for Self-Deleting Interface",
+      "evidenceRequired": "qualified task evidence",
+      "primaryRisk": "target-user evidence is missing",
+      "recommendation": "investigate",
+      "role": "target-user"
+    },
+    {
+      "claim": "security evaluation for Self-Deleting Interface",
+      "evidenceRequired": "threat and policy review",
+      "primaryRisk": "security evidence is missing",
+      "recommendation": "validate",
+      "role": "security"
+    },
+    {
+      "claim": "sales evaluation for Self-Deleting Interface",
+      "evidenceRequired": "testable acceptance evidence",
+      "primaryRisk": "sales evidence is missing",
+      "recommendation": "investigate",
+      "role": "sales"
+    },
+    {
+      "claim": "support evaluation for Self-Deleting Interface",
+      "evidenceRequired": "testable acceptance evidence",
+      "primaryRisk": "support evidence is missing",
+      "recommendation": "investigate",
+      "role": "support"
+    },
+    {
+      "claim": "contrarian evaluation for Self-Deleting Interface",
+      "evidenceRequired": "testable acceptance evidence",
+      "primaryRisk": "candidate does not materially replace the status quo",
+      "recommendation": "validate",
+      "role": "contrarian"
+    }
+  ],
+  "schemaVersion": 1,
+  "status": "passed"
+}

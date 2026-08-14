@@ -1,0 +1,134 @@
+{
+  "artifactPath": ".codex-orchestrator/project-profile.json",
+  "claimBoundary": "Project-derived fields describe repository context. They are inferred or assumed until customer, market, pricing, or operating evidence is imported.",
+  "commercialAssumptions": {
+    "addressableAccounts": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": 1000
+    },
+    "buildCost": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": 25000
+    },
+    "customerAcquisitionCost": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": 400
+    },
+    "grossMarginPercent": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": 75
+    },
+    "monthlyChurnPercent": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": 3
+    },
+    "monthlyNewCustomers": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": 8
+    },
+    "monthlyPrice": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": 50
+    },
+    "monthlyRunCost": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": 1500
+    },
+    "salesCycleMonths": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": 2
+    },
+    "startingCustomers": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": 0
+    }
+  },
+  "deploymentModel": {
+    "evidence": "missing",
+    "sources": [
+      "no deployment signal"
+    ],
+    "value": "unknown"
+  },
+  "differentiationApproach": {
+    "evidence": "assumption",
+    "sources": [
+      "generic fallback; no category-specific signal"
+    ],
+    "value": "b2b-software workflow automation hypothesis"
+  },
+  "errors": [],
+  "evidenceGaps": [
+    "customer segment is inferred from repository context; validate with qualified users",
+    "no imported customer or behavioral signals",
+    "no structured commercial evidence was imported from research or telemetry",
+    "pricing, market size, CAC, churn, and cost values are project-derived assumptions",
+    "deployment model is unknown; validate operating cost assumptions"
+  ],
+  "evidenceSummary": {
+    "importedSignals": 0,
+    "outcomes": 0,
+    "packagePresent": false,
+    "projectDocuments": 0,
+    "readmePresent": false,
+    "researchRecords": 0,
+    "sourceSignals": 0,
+    "telemetryEvents": 0
+  },
+  "generatedAt": "2026-08-14T09:05:27.284Z",
+  "primaryJob": {
+    "evidence": "assumption",
+    "sources": [
+      "generic fallback; no category-specific signal"
+    ],
+    "value": "complete a recurring business workflow with less effort"
+  },
+  "productCategory": {
+    "evidence": "assumption",
+    "sources": [
+      "generic fallback; no category-specific signal"
+    ],
+    "value": "b2b-software"
+  },
+  "schemaVersion": 1,
+  "status": "passed",
+  "targetAudience": {
+    "evidence": "assumption",
+    "sources": [
+      "generic fallback; no category-specific signal"
+    ],
+    "value": "business teams"
+  },
+  "technicalCostSignals": [],
+  "workspace": "D:\\temp\\Codex Plugin AX 4.0 2009 2012 Migration Agent to D 365 FO"
+}
