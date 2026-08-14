@@ -1,0 +1,16 @@
+{
+  "architecture": {
+    "commands": [],
+    "packageManager": null,
+    "stacks": []
+  },
+  "artifactPath": ".codex-orchestrator/intelligence/project-model-latest.json",
+  "dataSignals": [],
+  "errors": [],
+  "flowHypotheses": [],
+  "generatedAt": "2026-08-14T06:49:53.463Z",
+  "interfaces": [],
+  "schemaVersion": 1,
+  "status": "passed",
+  "testSignals": []
+}

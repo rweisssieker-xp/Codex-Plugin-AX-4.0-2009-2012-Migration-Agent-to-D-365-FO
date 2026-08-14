@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "generatedAt": "2026-08-14T06:52:06.403Z",
+  "goal": "eliminate the highest-friction workflow in this app",
+  "currentAppBreakdown": {
+    "known": "Detected stacks: unknown; available project commands: 0.",
+    "assumptions": [
+      "The existing workflow must be observed or described before its removal is treated as validated.",
+      "No user behavior, market claim, or ROI claim is inferred from repository structure alone."
+    ],
+    "standardStepsToChallenge": [
+      "manual data gathering",
+      "screen-to-screen handoffs",
+      "status checking",
+      "copying context between tools",
+      "unverified decisions"
+    ]
+  },
+  "evidence": {
+    "basis": "project-profile-assumption",
+    "sourceSignalIds": [],
+    "note": "No imported signals found: all radical bets remain repository-aware assumptions."
+  },
+  "ideas": [
+    {
+      "id": "invisible-workflow-compiler",
+      "title": "Invisible Workflow Compiler",
+      "status": "hypothesis",
+      "goal": "eliminate the highest-friction workflow in this app",
+      "interactionReplaced": "A recurring multi-step interaction becomes one intent plus a reviewed outcome.",
+      "tenXHypothesis": "Reduce the active user steps for eliminate the highest-friction workflow in this app by at least 90% while preserving a visible review and rollback path.",
+      "aiCore": "Observed task events, product context, policy, and user corrections.",
+      "mvp": "Event intake, workflow candidate, one-click preview, explicit undo.",
+      "moat": "A product-specific record of completed workflow patterns and corrections.",
+      "killCondition": "The agent cannot identify a repeated workflow or save at least 70% of its active steps.",
+      "sourceSignalIds": [],
+      "evidenceBasis": "project-profile-assumption",
+      "score": {
+        "disruption": 25,
+        "stepReduction": 22,
+        "aiCentrality": 18,
+        "feasibility": 15,
+        "moat": 12,
+        "evidenceStrength": 2,
+        "total": 94
+      },
+      "recommendation": "assumption-first"
+    },
+    {
+      "id": "outcome-operator",
+      "title": "Outcome Operator",
+      "status": "hypothesis",
+      "goal": "eliminate the highest-friction workflow in this app",
+      "interactionReplaced": "The user states the result; an agent plans and completes bounded work across the current app.",
+      "tenXHypothesis": "Reduce the active user steps for eliminate the highest-friction workflow in this app by at least 90% while preserving a visible review and rollback path.",
+      "aiCore": "Goal, project context, permissions, historical outcomes, and live task state.",
+      "mvp": "Goal composer, action preview, bounded executor, proof and rollback record.",
+      "moat": "Trusted action adapters, permission policies, and outcome evidence inside the customer workflow.",
+      "killCondition": "The result cannot be decomposed into a reversible action plan with an accountable owner.",
+      "sourceSignalIds": [],
+      "evidenceBasis": "project-profile-assumption",
+      "score": {
+        "disruption": 24,
+        "stepReduction": 21,
+        "aiCentrality": 17,
+        "feasibility": 15,
+        "moat": 11,
+        "evidenceStrength": 2,
+        "total": 90
+      },
+      "recommendation": "assumption-first"
+    },
+    {
+      "id": "self-deleting-interface",
+      "title": "Self-Deleting Interface",
+      "status": "hypothesis",
+      "goal": "eliminate the highest-friction workflow in this app",
+      "interactionReplaced": "The system identifies UI that only transports information and replaces it with proactive action.",
+      "tenXHypothesis": "Reduce the active user steps for eliminate the highest-friction workflow in this app by at least 90% while preserving a visible review and rollback path.",
+      "aiCore": "Screen states, task traces, accessibility structure, support friction, and acceptance outcomes.",
+      "mvp": "Interaction inventory, eliminate/automate/keep ranking, replacement agent flow, UI regression tests.",
+      "moat": "A ranked map of removable UI and verified replacement flows.",
+      "killCondition": "Removing or automating the interaction lowers completion or creates an unmitigated accessibility risk.",
+      "sourceSignalIds": [],
+      "evidenceBasis": "project-profile-assumption",
+      "score": {
+        "disruption": 22,
+        "stepReduction": 22,
+        "aiCentrality": 17,
+        "feasibility": 14,
+        "moat": 12,
+        "evidenceStrength": 2,
+        "total": 89
+      },
+      "recommendation": "assumption-first"
+    },
+    {
+      "id": "product-digital-twin",
+      "title": "Product Digital Twin",
+      "status": "hypothesis",
+      "goal": "eliminate the highest-friction workflow in this app",
+      "interactionReplaced": "The product tests competing futures before teams build a conventional feature.",
+      "tenXHypothesis": "Reduce the active user steps for eliminate the highest-friction workflow in this app by at least 90% while preserving a visible review and rollback path.",
+      "aiCore": "Repository context, telemetry, customer signals, market assumptions, and experiment results.",
+      "mvp": "Three scenario simulator, uncertainty ledger, experiment selector, decision record.",
+      "moat": "Calibrated product decisions linked to actual experiments and customer context.",
+      "killCondition": "The scenarios do not change a build, pricing, or experiment decision in five product reviews.",
+      "sourceSignalIds": [],
+      "evidenceBasis": "project-profile-assumption",
+      "score": {
+        "disruption": 23,
+        "stepReduction": 20,
+        "aiCentrality": 18,
+        "feasibility": 14,
+        "moat": 10,
+        "evidenceStrength": 2,
+        "total": 87
+      },
+      "recommendation": "assumption-first"
+    },
+    {
+      "id": "autonomous-experiment-cell",
+      "title": "Autonomous Experiment Cell",
+      "status": "hypothesis",
+      "goal": "eliminate the highest-friction workflow in this app",
+      "interactionReplaced": "Instead of a feature backlog, the product runs evidence-bounded experiments that scale, iterate, or stop.",
+      "tenXHypothesis": "Reduce the active user steps for eliminate the highest-friction workflow in this app by at least 90% while preserving a visible review and rollback path.",
+      "aiCore": "Hypotheses, exposure, product telemetry, tester evidence, costs, and guardrail metrics.",
+      "mvp": "Hypothesis contract, feature-flag adapter, telemetry mapping, automatic decision draft.",
+      "moat": "A compounding archive of hypotheses, guardrails, and measured product outcomes.",
+      "killCondition": "The experiment lacks a measurable outcome, safe guardrail, or explicit stop condition.",
+      "sourceSignalIds": [],
+      "evidenceBasis": "project-profile-assumption",
+      "score": {
+        "disruption": 21,
+        "stepReduction": 21,
+        "aiCentrality": 18,
+        "feasibility": 13,
+        "moat": 11,
+        "evidenceStrength": 2,
+        "total": 86
+      },
+      "recommendation": "assumption-first"
+    }
+  ],
+  "selectionCriteria": [
+    "status-quo break",
+    "10x step reduction",
+    "AI centrality",
+    "MVP feasibility",
+    "defensible data or workflow moat",
+    "reversible trust boundary"
+  ],
+  "nextAction": "Use radical select --id <idea-id>, then radical blueprint and radical shadow-mode before autonomous execution.",
+  "artifactPath": ".codex-orchestrator/product/radical-portfolio-latest.json",
+  "errors": []
+}

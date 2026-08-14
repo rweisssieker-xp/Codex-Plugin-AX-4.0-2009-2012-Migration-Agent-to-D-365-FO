@@ -1,0 +1,586 @@
+{
+  "artifactPath": ".codex-orchestrator/primary/evolve-latest.json",
+  "claimBoundary": "The selected direction is a repository-aware hypothesis; validate it with customers before claiming demand.",
+  "errors": [],
+  "generatedAt": "2026-08-14T06:49:53.469Z",
+  "goal": "Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions.",
+  "goalSource": "user",
+  "intelligence": {
+    "architecture": {
+      "commands": [],
+      "packageManager": null,
+      "stacks": []
+    },
+    "artifactPath": ".codex-orchestrator/intelligence/project-model-latest.json",
+    "dataSignals": [],
+    "errors": [],
+    "flowHypotheses": [],
+    "generatedAt": "2026-08-14T06:49:53.463Z",
+    "interfaces": [],
+    "schemaVersion": 1,
+    "status": "passed",
+    "testSignals": []
+  },
+  "nextAction": "Run council decide to challenge the selected transformation, then ship plan for bounded delivery.",
+  "opportunity": {
+    "artifactPath": ".codex-orchestrator/experience/opportunity-case-latest.json",
+    "businessCase": {
+      "annualRevenue": 12000,
+      "assumptions": {
+        "addressableAccounts": 1000,
+        "buildCost": 25000,
+        "grossMarginPercent": 75,
+        "monthlyPrice": 50,
+        "monthlyRunCost": 1500,
+        "penetrationPercent": 2
+      },
+      "assumptionSources": {
+        "addressableAccounts": {
+          "evidence": "assumption",
+          "inputs": [
+            "generic fallback; no category-specific signal"
+          ],
+          "source": "assumption"
+        },
+        "buildCost": {
+          "evidence": "assumption",
+          "inputs": [
+            "generic fallback; no category-specific signal"
+          ],
+          "source": "assumption"
+        },
+        "grossMarginPercent": {
+          "evidence": "assumption",
+          "inputs": [
+            "generic fallback; no category-specific signal"
+          ],
+          "source": "assumption"
+        },
+        "monthlyPrice": {
+          "evidence": "assumption",
+          "inputs": [
+            "generic fallback; no category-specific signal"
+          ],
+          "source": "assumption"
+        },
+        "monthlyRunCost": {
+          "evidence": "assumption",
+          "inputs": [
+            "generic fallback; no category-specific signal"
+          ],
+          "source": "assumption"
+        },
+        "penetrationPercent": {
+          "evidence": "assumption",
+          "inputs": [
+            "no observed penetration evidence"
+          ],
+          "source": "assumption"
+        }
+      },
+      "breakEvenMonths": null,
+      "confidence": "illustrative-until-validated",
+      "grossProfit": 9000,
+      "requiredValidation": [
+        "Confirm buyer segment and reachable accounts.",
+        "Validate price and willingness to pay.",
+        "Measure build and operating cost with the selected architecture."
+      ],
+      "roiPercent": -136,
+      "twelveMonthNet": -34000
+    },
+    "errors": [],
+    "evidence": {
+      "basis": "project-profile-assumptions",
+      "note": "No customer signals are present; market chance and business case are illustrative assumptions, not market facts.",
+      "signalCount": 0
+    },
+    "generatedAt": "2026-08-14T06:49:53.466Z",
+    "goal": "Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions.",
+    "marketChance": {
+      "band": "weak",
+      "confidence": "assumption-led",
+      "dimensions": {
+        "differentiation": 65,
+        "evidence": 25,
+        "feasibility": 65,
+        "frequency": 45,
+        "pain": 50,
+        "reach": 50,
+        "willingnessToPay": 55
+      },
+      "evidence": {
+        "differentiation": "assumption",
+        "evidence": "assumption",
+        "feasibility": "assumption",
+        "frequency": "assumption",
+        "pain": "assumption",
+        "reach": "assumption",
+        "willingnessToPay": "assumption"
+      },
+      "total": 50
+    },
+    "projectDocuments": [
+      "docs/forgemind/market-opportunity.md"
+    ],
+    "projectProfile": {
+      "artifactPath": ".codex-orchestrator/project-profile.json",
+      "claimBoundary": "Project-derived fields describe repository context. They are inferred or assumed until customer, market, pricing, or operating evidence is imported.",
+      "commercialAssumptions": {
+        "addressableAccounts": {
+          "evidence": "assumption",
+          "sources": [
+            "generic fallback; no category-specific signal"
+          ],
+          "value": 1000
+        },
+        "buildCost": {
+          "evidence": "assumption",
+          "sources": [
+            "generic fallback; no category-specific signal"
+          ],
+          "value": 25000
+        },
+        "customerAcquisitionCost": {
+          "evidence": "assumption",
+          "sources": [
+            "generic fallback; no category-specific signal"
+          ],
+          "value": 400
+        },
+        "grossMarginPercent": {
+          "evidence": "assumption",
+          "sources": [
+            "generic fallback; no category-specific signal"
+          ],
+          "value": 75
+        },
+        "monthlyChurnPercent": {
+          "evidence": "assumption",
+          "sources": [
+            "generic fallback; no category-specific signal"
+          ],
+          "value": 3
+        },
+        "monthlyNewCustomers": {
+          "evidence": "assumption",
+          "sources": [
+            "generic fallback; no category-specific signal"
+          ],
+          "value": 8
+        },
+        "monthlyPrice": {
+          "evidence": "assumption",
+          "sources": [
+            "generic fallback; no category-specific signal"
+          ],
+          "value": 50
+        },
+        "monthlyRunCost": {
+          "evidence": "assumption",
+          "sources": [
+            "generic fallback; no category-specific signal"
+          ],
+          "value": 1500
+        },
+        "salesCycleMonths": {
+          "evidence": "assumption",
+          "sources": [
+            "generic fallback; no category-specific signal"
+          ],
+          "value": 2
+        },
+        "startingCustomers": {
+          "evidence": "assumption",
+          "sources": [
+            "generic fallback; no category-specific signal"
+          ],
+          "value": 0
+        }
+      },
+      "deploymentModel": {
+        "evidence": "missing",
+        "sources": [
+          "no deployment signal"
+        ],
+        "value": "unknown"
+      },
+      "differentiationApproach": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": "b2b-software workflow automation hypothesis"
+      },
+      "errors": [],
+      "evidenceGaps": [
+        "customer segment is inferred from repository context; validate with qualified users",
+        "no imported customer or behavioral signals",
+        "no structured commercial evidence was imported from research or telemetry",
+        "pricing, market size, CAC, churn, and cost values are project-derived assumptions",
+        "deployment model is unknown; validate operating cost assumptions"
+      ],
+      "evidenceSummary": {
+        "importedSignals": 0,
+        "outcomes": 0,
+        "packagePresent": false,
+        "projectDocuments": 0,
+        "readmePresent": false,
+        "researchRecords": 0,
+        "sourceSignals": 0,
+        "telemetryEvents": 0
+      },
+      "generatedAt": "2026-08-14T06:49:53.463Z",
+      "primaryJob": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": "complete a recurring business workflow with less effort"
+      },
+      "productCategory": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": "b2b-software"
+      },
+      "schemaVersion": 1,
+      "status": "passed",
+      "targetAudience": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": "business teams"
+      },
+      "technicalCostSignals": [],
+      "workspace": "D:\\temp\\Codex Plugin AX 4.0 2009 2012 Migration Agent to D 365 FO"
+    },
+    "recommendation": "refine-assumptions-before-build",
+    "schemaVersion": 1,
+    "status": "passed",
+    "ventureContext": {
+      "alternatives": {
+        "evidence": "inferred",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": "manual work and existing workflow software"
+      },
+      "goToMarket": {
+        "evidence": "inferred",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": "recruit a narrow user cohort before scaling distribution"
+      },
+      "pricingHypothesis": {
+        "evidence": "inferred",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": "subscription pricing to be tested with qualified users"
+      },
+      "targetSegment": {
+        "evidence": "inferred",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": "business teams with a recurring workflow"
+      },
+      "validationPlan": {
+        "evidence": "inferred",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": "test task completion, repeat use, and willingness to pay with qualified users"
+      }
+    }
+  },
+  "projectDocuments": [
+    "docs/forgemind/evolution-brief.md"
+  ],
+  "projectProfile": {
+    "artifactPath": ".codex-orchestrator/project-profile.json",
+    "claimBoundary": "Project-derived fields describe repository context. They are inferred or assumed until customer, market, pricing, or operating evidence is imported.",
+    "commercialAssumptions": {
+      "addressableAccounts": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": 1000
+      },
+      "buildCost": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": 25000
+      },
+      "customerAcquisitionCost": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": 400
+      },
+      "grossMarginPercent": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": 75
+      },
+      "monthlyChurnPercent": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": 3
+      },
+      "monthlyNewCustomers": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": 8
+      },
+      "monthlyPrice": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": 50
+      },
+      "monthlyRunCost": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": 1500
+      },
+      "salesCycleMonths": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": 2
+      },
+      "startingCustomers": {
+        "evidence": "assumption",
+        "sources": [
+          "generic fallback; no category-specific signal"
+        ],
+        "value": 0
+      }
+    },
+    "deploymentModel": {
+      "evidence": "missing",
+      "sources": [
+        "no deployment signal"
+      ],
+      "value": "unknown"
+    },
+    "differentiationApproach": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": "b2b-software workflow automation hypothesis"
+    },
+    "errors": [],
+    "evidenceGaps": [
+      "customer segment is inferred from repository context; validate with qualified users",
+      "no imported customer or behavioral signals",
+      "no structured commercial evidence was imported from research or telemetry",
+      "pricing, market size, CAC, churn, and cost values are project-derived assumptions",
+      "deployment model is unknown; validate operating cost assumptions"
+    ],
+    "evidenceSummary": {
+      "importedSignals": 0,
+      "outcomes": 0,
+      "packagePresent": false,
+      "projectDocuments": 0,
+      "readmePresent": false,
+      "researchRecords": 0,
+      "sourceSignals": 0,
+      "telemetryEvents": 0
+    },
+    "generatedAt": "2026-08-14T06:49:53.457Z",
+    "primaryJob": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": "complete a recurring business workflow with less effort"
+    },
+    "productCategory": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": "b2b-software"
+    },
+    "schemaVersion": 1,
+    "status": "passed",
+    "targetAudience": {
+      "evidence": "assumption",
+      "sources": [
+        "generic fallback; no category-specific signal"
+      ],
+      "value": "business teams"
+    },
+    "technicalCostSignals": [],
+    "workspace": "D:\\temp\\Codex Plugin AX 4.0 2009 2012 Migration Agent to D 365 FO"
+  },
+  "radicalOptions": [
+    {
+      "aiCore": "Observed task events, product context, policy, and user corrections.",
+      "evidenceBasis": "project-profile-assumption",
+      "goal": "Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions.",
+      "id": "invisible-workflow-compiler",
+      "interactionReplaced": "A recurring multi-step interaction becomes one intent plus a reviewed outcome.",
+      "killCondition": "The agent cannot identify a repeated workflow or save at least 70% of its active steps.",
+      "moat": "A product-specific record of completed workflow patterns and corrections.",
+      "mvp": "Event intake, workflow candidate, one-click preview, explicit undo.",
+      "recommendation": "assumption-first",
+      "score": {
+        "aiCentrality": 18,
+        "disruption": 25,
+        "evidenceStrength": 2,
+        "feasibility": 15,
+        "moat": 12,
+        "stepReduction": 22,
+        "total": 94
+      },
+      "sourceSignalIds": [],
+      "status": "hypothesis",
+      "tenXHypothesis": "Reduce the active user steps for Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions. by at least 90% while preserving a visible review and rollback path.",
+      "title": "Invisible Workflow Compiler"
+    },
+    {
+      "aiCore": "Goal, project context, permissions, historical outcomes, and live task state.",
+      "evidenceBasis": "project-profile-assumption",
+      "goal": "Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions.",
+      "id": "outcome-operator",
+      "interactionReplaced": "The user states the result; an agent plans and completes bounded work across the current app.",
+      "killCondition": "The result cannot be decomposed into a reversible action plan with an accountable owner.",
+      "moat": "Trusted action adapters, permission policies, and outcome evidence inside the customer workflow.",
+      "mvp": "Goal composer, action preview, bounded executor, proof and rollback record.",
+      "recommendation": "assumption-first",
+      "score": {
+        "aiCentrality": 17,
+        "disruption": 24,
+        "evidenceStrength": 2,
+        "feasibility": 15,
+        "moat": 11,
+        "stepReduction": 21,
+        "total": 90
+      },
+      "sourceSignalIds": [],
+      "status": "hypothesis",
+      "tenXHypothesis": "Reduce the active user steps for Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions. by at least 90% while preserving a visible review and rollback path.",
+      "title": "Outcome Operator"
+    },
+    {
+      "aiCore": "Screen states, task traces, accessibility structure, support friction, and acceptance outcomes.",
+      "evidenceBasis": "project-profile-assumption",
+      "goal": "Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions.",
+      "id": "self-deleting-interface",
+      "interactionReplaced": "The system identifies UI that only transports information and replaces it with proactive action.",
+      "killCondition": "Removing or automating the interaction lowers completion or creates an unmitigated accessibility risk.",
+      "moat": "A ranked map of removable UI and verified replacement flows.",
+      "mvp": "Interaction inventory, eliminate/automate/keep ranking, replacement agent flow, UI regression tests.",
+      "recommendation": "assumption-first",
+      "score": {
+        "aiCentrality": 17,
+        "disruption": 22,
+        "evidenceStrength": 2,
+        "feasibility": 14,
+        "moat": 12,
+        "stepReduction": 22,
+        "total": 89
+      },
+      "sourceSignalIds": [],
+      "status": "hypothesis",
+      "tenXHypothesis": "Reduce the active user steps for Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions. by at least 90% while preserving a visible review and rollback path.",
+      "title": "Self-Deleting Interface"
+    },
+    {
+      "aiCore": "Repository context, telemetry, customer signals, market assumptions, and experiment results.",
+      "evidenceBasis": "project-profile-assumption",
+      "goal": "Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions.",
+      "id": "product-digital-twin",
+      "interactionReplaced": "The product tests competing futures before teams build a conventional feature.",
+      "killCondition": "The scenarios do not change a build, pricing, or experiment decision in five product reviews.",
+      "moat": "Calibrated product decisions linked to actual experiments and customer context.",
+      "mvp": "Three scenario simulator, uncertainty ledger, experiment selector, decision record.",
+      "recommendation": "assumption-first",
+      "score": {
+        "aiCentrality": 18,
+        "disruption": 23,
+        "evidenceStrength": 2,
+        "feasibility": 14,
+        "moat": 10,
+        "stepReduction": 20,
+        "total": 87
+      },
+      "sourceSignalIds": [],
+      "status": "hypothesis",
+      "tenXHypothesis": "Reduce the active user steps for Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions. by at least 90% while preserving a visible review and rollback path.",
+      "title": "Product Digital Twin"
+    },
+    {
+      "aiCore": "Hypotheses, exposure, product telemetry, tester evidence, costs, and guardrail metrics.",
+      "evidenceBasis": "project-profile-assumption",
+      "goal": "Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions.",
+      "id": "autonomous-experiment-cell",
+      "interactionReplaced": "Instead of a feature backlog, the product runs evidence-bounded experiments that scale, iterate, or stop.",
+      "killCondition": "The experiment lacks a measurable outcome, safe guardrail, or explicit stop condition.",
+      "moat": "A compounding archive of hypotheses, guardrails, and measured product outcomes.",
+      "mvp": "Hypothesis contract, feature-flag adapter, telemetry mapping, automatic decision draft.",
+      "recommendation": "assumption-first",
+      "score": {
+        "aiCentrality": 18,
+        "disruption": 21,
+        "evidenceStrength": 2,
+        "feasibility": 13,
+        "moat": 11,
+        "stepReduction": 21,
+        "total": 86
+      },
+      "sourceSignalIds": [],
+      "status": "hypothesis",
+      "tenXHypothesis": "Reduce the active user steps for Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions. by at least 90% while preserving a visible review and rollback path.",
+      "title": "Autonomous Experiment Cell"
+    }
+  ],
+  "schemaVersion": 1,
+  "selectedDirection": {
+    "aiCore": "Observed task events, product context, policy, and user corrections.",
+    "evidenceBasis": "project-profile-assumption",
+    "goal": "Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions.",
+    "id": "invisible-workflow-compiler",
+    "interactionReplaced": "A recurring multi-step interaction becomes one intent plus a reviewed outcome.",
+    "killCondition": "The agent cannot identify a repeated workflow or save at least 70% of its active steps.",
+    "moat": "A product-specific record of completed workflow patterns and corrections.",
+    "mvp": "Event intake, workflow candidate, one-click preview, explicit undo.",
+    "recommendation": "assumption-first",
+    "score": {
+      "aiCentrality": 18,
+      "disruption": 25,
+      "evidenceStrength": 2,
+      "feasibility": 15,
+      "moat": 12,
+      "stepReduction": 22,
+      "total": 94
+    },
+    "sourceSignalIds": [],
+    "status": "hypothesis",
+    "tenXHypothesis": "Reduce the active user steps for Zero-input default: transform the AX 2012 to D365 F&O Migration Decision Compiler into a migration review room that eliminates manual evidence collation and supports reversible reviewer decisions. by at least 90% while preserving a visible review and rollback path.",
+    "title": "Invisible Workflow Compiler"
+  },
+  "status": "passed"
+}
