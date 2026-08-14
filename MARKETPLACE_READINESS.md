@@ -7,8 +7,8 @@
 - [x] No bundled credentials, tokens or production exports
 - [x] Tests and plugin validation pass
 - [x] Connector actions are review-gated and documented
-- [ ] Select and add a software license
+- [x] Apache-2.0 software license included
 - [ ] Configure required apps only for approved workspace roles
 - [ ] Pilot with a restricted, preferably read-only group before broad rollout
 
-The public plugin listing/approval process, if available for the target workspace, remains an OpenAI/workspace-admin decision. This repository is release-ready as a source marketplace plugin after the remaining license decision.
+The public plugin listing/approval process, if available for the target workspace, remains an OpenAI/workspace-admin decision. This repository is release-ready as a source marketplace plugin.

@@ -33,7 +33,7 @@ The plugin includes a valid Codex manifest, privacy policy, terms, security poli
 
 ## License
 
-No open-source license has been selected yet. Add a license before accepting external contributions or communicating reuse rights.
+Licensed under [Apache-2.0](LICENSE). It permits commercial use, modification and redistribution while including an explicit patent grant and retaining notices.
 
 ## Support
 
