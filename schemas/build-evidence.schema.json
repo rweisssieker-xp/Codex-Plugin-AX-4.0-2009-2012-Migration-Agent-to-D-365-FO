@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","properties":{"builds":{"type":"array","items":{"type":"object","required":["status"],"properties":{"status":{"enum":["SUCCEEDED","FAILED","PARTIAL","PENDING"]},"pipeline":{"type":"string"},"reference":{"type":"string"}}}}},"required":["builds"],"additionalProperties":false}

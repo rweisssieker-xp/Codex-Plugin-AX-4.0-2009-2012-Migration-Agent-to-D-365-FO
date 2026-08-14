@@ -1,0 +1,14 @@
+***Element: TABLE CustLegacyStaging
+; Example only: this is not a complete XPO export.
+***Element: CLASS CustLegacySync
+class CustLegacySync extends RunBaseBatch
+{
+    public void run()
+    {
+        Connection connection = new Connection();
+        Statement statement = connection.createStatement();
+        statement.executeQuery("SELECT * FROM CustLegacyStaging");
+    }
+}
+***Element: REPORT CustLegacyReconciliation
+***Element: SecurityRole CustLegacyClerk

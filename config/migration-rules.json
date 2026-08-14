@@ -1,0 +1,7 @@
+{
+  "schemaVersion": "1.0",
+  "riskPolicy": {"directSql": 5, "security": 4, "integration": 4},
+  "classificationPolicy": ["STANDARD", "EXTEND", "REBUILD", "REMOVE"],
+  "effortBands": ["XS", "S", "M", "L", "XL"],
+  "approval": "All rule changes require an architect and Process Owner review."
+}

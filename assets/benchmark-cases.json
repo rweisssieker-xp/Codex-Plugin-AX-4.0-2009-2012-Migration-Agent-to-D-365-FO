@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "1.0",
+  "cases": [
+    {"id": "direct-sql", "input": "example-ax-export.xpo", "expectedSignals": ["direct_sql"], "expectedDecision": "REBUILD"},
+    {"id": "security-role", "input": "example-ax-export.xpo", "expectedType": "SecurityRole", "expectedDecision": "REBUILD"},
+    {"id": "table-extension", "input": "example-ax-export.xpo", "expectedType": "Table", "expectedDecision": "EXTEND"}
+  ]
+}

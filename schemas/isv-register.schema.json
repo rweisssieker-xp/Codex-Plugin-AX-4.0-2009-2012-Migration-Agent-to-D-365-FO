@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","properties":{"vendors":{"type":"array","items":{"type":"object","required":["model","vendor"],"properties":{"model":{"type":"string"},"vendor":{"type":"string"},"supportStatus":{"type":"string"}}}}},"required":["vendors"],"additionalProperties":false}

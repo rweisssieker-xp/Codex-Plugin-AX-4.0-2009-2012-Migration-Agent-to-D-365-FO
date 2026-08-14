@@ -1,0 +1,29 @@
+{
+  "name": "ax2012-d365fo-migration-agent",
+  "version": "0.1.0+codex.20260814095221",
+  "description": "Evidence-led AX 2012 to Dynamics 365 Finance and Operations migration analysis.",
+  "author": {
+    "name": "Local developer"
+  },
+  "homepage": "https://github.com/rweisssieker-xp/Codex-Plugin-AX-4.0-2009-2012-Migration-Agent-to-D-365-FO",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AX 2012 \u2192 D365 F&O Migration Agent",
+    "shortDescription": "Classify AX customizations and produce D365 F&O migration evidence.",
+    "longDescription": "Discovers AX 2012 customizations from XPO exports and source folders, identifies high-risk patterns, classifies each object, and produces a traceable D365 F&O migration backlog.",
+    "developerName": "Local developer",
+    "category": "Development",
+    "websiteURL": "https://github.com/rweisssieker-xp/Codex-Plugin-AX-4.0-2009-2012-Migration-Agent-to-D-365-FO",
+    "privacyPolicyURL": "https://github.com/rweisssieker-xp/Codex-Plugin-AX-4.0-2009-2012-Migration-Agent-to-D-365-FO/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/rweisssieker-xp/Codex-Plugin-AX-4.0-2009-2012-Migration-Agent-to-D-365-FO/blob/main/TERMS.md",
+    "capabilities": [
+      "Analysis",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Analyze this AX 2012 XPO export and create a D365 F&O migration inventory.",
+      "Classify AX customizations as standard, extend, rebuild, or remove.",
+      "Create an evidence-led migration backlog for this AX 2012 repository."
+    ]
+  }
+}
