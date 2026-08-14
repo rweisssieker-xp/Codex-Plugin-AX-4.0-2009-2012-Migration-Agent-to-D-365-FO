@@ -1,6 +1,6 @@
 {
   "name": "ax2012-d365fo-migration-agent",
-  "version": "0.1.0+codex.20260814095600",
+  "version": "0.1.0+codex.20260814095759",
   "description": "Evidence-led AX 2012 to Dynamics 365 Finance and Operations migration analysis.",
   "author": {
     "name": "Local developer"
